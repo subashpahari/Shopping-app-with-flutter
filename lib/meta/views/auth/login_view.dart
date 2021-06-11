@@ -49,7 +49,7 @@ class LoginView extends StatelessWidget {
                 ),
                 vSizedBox2,
                 Text(
-                  "Welcome to the party!!",
+                  "Let's Sign you in!",
                   style: TextStyle(
                     color: whiteColor,
                     fontWeight: FontWeight.w400,
@@ -57,7 +57,7 @@ class LoginView extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Hey there!",
+                  "Welcome back",
                   style: TextStyle(
                     color: whiteColor,
                     fontWeight: FontWeight.w400,
