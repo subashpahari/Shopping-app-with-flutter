@@ -44,7 +44,7 @@ class SignUpView extends StatelessWidget {
                   "Hey there!",
                   style: TextStyle(
                     color: whiteColor,
-                    fontWeight: FontWeight.w900,
+                    fontWeight: FontWeight.w800,
                     fontSize: 40,
                   ),
                 ),
@@ -54,11 +54,11 @@ class SignUpView extends StatelessWidget {
                   style: TextStyle(
                     color: whiteColor,
                     fontWeight: FontWeight.w400,
-                    fontSize: 26,
+                    fontSize: 25,
                   ),
                 ),
                 Text(
-                  "Hey there!",
+                  "Fill in your details",
                   style: TextStyle(
                     color: whiteColor,
                     fontWeight: FontWeight.w400,
@@ -96,10 +96,11 @@ class SignUpView extends StatelessWidget {
                       TextSpan(
                           recognizer: TapGestureRecognizer()
                             ..onTap = () => {
-                                  Navigator.pushReplacement(context,
-                                  PageTransition(
-                                    child: LoginView(),
-                                    type: PageTransitionType.leftToRight))
+                                  Navigator.pushReplacement(
+                                      context,
+                                      PageTransition(
+                                          child: LoginView(),
+                                          type: PageTransitionType.leftToRight))
                                 },
                           text: "Login",
                           style: TextStyle(
