@@ -41,7 +41,7 @@ class SignUpView extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Hey there!",
+                  "Hello there buddy!",
                   style: TextStyle(
                     color: whiteColor,
                     fontWeight: FontWeight.w800,
